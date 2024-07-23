@@ -6,15 +6,9 @@ body {
     width: 500px;
 }
 
-h1 {
-    margin-top: 50px;
-}
-
 input {
     width: 500px;
-    margin-top: 15px;
     height: 40px;
-    border-radius: 10px;
     padding-left: 5px;
 }
 
@@ -28,13 +22,10 @@ input :active, :hover, :focus {
 }
 
 button {
-    margin-top: 15px;
     width: 200px;
 }
 
-.one-product {
-    border-radius: 8px;
-    margin-top: 15px;
+.product {
     width: 500px;
     height: 50px;
     background-color: white;
@@ -43,6 +34,6 @@ button {
     padding-right: 10px;
 }
 
-.done {
+.product-done {
     text-decoration: line-through;
 }

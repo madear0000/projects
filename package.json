@@ -1,0 +1,25 @@
+{
+  "name": "someprojects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint shopping_list --c .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madear0000/projects.git"
+  },
+  "author": "madear0000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madear0000/projects/issues"
+  },
+  "homepage": "https://github.com/madear0000/projects#readme",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "eslint": "^9.7.0",
+    "globals": "^15.8.0"
+  }
+}
