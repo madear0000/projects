@@ -1,0 +1,23 @@
+{
+  "name": "shopping_list",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madear0000/projects.git"
+  },
+  "keywords": [
+    "projects",
+    "js"
+  ],
+  "author": "madear0000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madear0000/projects/issues"
+  },
+  "homepage": "https://github.com/madear0000/projects#readme",
+  "description": ""
+}
