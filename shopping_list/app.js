@@ -7,13 +7,9 @@ let count = 0;
 
 function addElement(name, count) {
     return `
-    <div class="product d-flex justify-content-between" id=${count}>
-        <p>${name}</p>
-        <div class="form-check">
-            <input class="form-check-input" name="bought-products" type="checkbox" value="" data-index=${count}>
-            <label class="form-check-label" for="defaultCheck1">
-            </label>
-        </div>              
+    <div class="product d-flex rounded mt-3" id=${count}>
+                <input class="form-check-input" name="bought-products" type="checkbox" value="" data-index=${count}> 
+                <label for="check" class="ms-2">${name}</label>       
     </div>`
 }
 
